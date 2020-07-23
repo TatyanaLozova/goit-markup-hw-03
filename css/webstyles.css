@@ -20,7 +20,7 @@ letter-spacing: 0.03em;
 }
 .title {
 font-family: "Roboto", sans-serif;
-color: var(--part-txt-color)
+color: var(--part-txt-color);
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
