@@ -10,7 +10,7 @@
   }
 
 body {
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -20,7 +20,6 @@ letter-spacing: 0.03em;
 }
 .title {
 color: var(--part-txt-color)
-font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -151,7 +150,7 @@ color:var(--sec-txt-color);
 }
 
 .footer{
-font-family: "Roboto" sans-serif, 
+font-family: "Roboto", sans-serif, 
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
