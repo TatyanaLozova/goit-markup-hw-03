@@ -8,13 +8,28 @@
   --features-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   }
-.conteiner {
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    letter-spacing: 0.02em;
+  
+  }
+
+ .conteiner {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
   outline: 2px solid #2196f3;
 }
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  /*
+  align-items: center;*/
 
 
 }
