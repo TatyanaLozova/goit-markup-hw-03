@@ -18,7 +18,7 @@
   }
 
  .conteiner {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
@@ -84,7 +84,7 @@ color: var(--part-txt-color);
   display: flex;
   }
   .menu-list li {
-  background-color: #cf4fcf;
+ /* background-color: #cf4fcf;*/
 margin-right: 50px;
 
   }
