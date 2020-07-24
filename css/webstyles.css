@@ -8,7 +8,14 @@
   --features-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   }
-
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
   .site-nav {
     display: flex;
     align-items: center;
@@ -84,7 +91,9 @@ color: var(--part-txt-color);
   display: flex;
   }
   .menu-list li {
- /* background-color: #cf4fcf;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+ background-color: #cf4fcf;
 margin-right: 50px;
 
   }
