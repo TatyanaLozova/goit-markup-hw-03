@@ -26,9 +26,8 @@ html {
 
  .conteiner {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
+  padding-left: 0 15px;
+  margin: 0 auto;
   outline: 2px solid #2196f3;
 }
 
@@ -93,7 +92,7 @@ color: var(--part-txt-color);
   .menu-list li {
   padding-top: 30px;
   padding-bottom: 30px;
- background-color: #cf4fcf;
+ background-color: #e7bfe7;
 margin-right: 50px;
 
   }
@@ -161,7 +160,8 @@ color: var(--sec-txt-color);
 
 }
  .section{
-list-style:none
+list-style:none;
+display: flex;
  }
 
  .headline {
