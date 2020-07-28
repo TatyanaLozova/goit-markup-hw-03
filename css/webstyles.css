@@ -312,7 +312,6 @@ margin-bottom: 94px;
 
 <!--Наша команда-->
 .our-team {
-  list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
@@ -321,6 +320,36 @@ margin-bottom: 94px;
 .our-team li{
   margin-right: 30px;
 }
-  
+.our-team{
+ display: flex;
+ flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  }
+.our-team li {
+   margin-right: 30pt;
+}
+.our-items{
+ width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;}
+
+.our-items:nth-child(4n) {
+  margin-right: 0;
+}
+
+.regular-client {
+   display: flex;
+  padding: 0;
+  margin: 0;
+  }
+
+.clients-list {
+ width: calc((100% - 30px * 5) / 6);
+  margin-right: 30px;
+}
+
+.regular-client:nth-child(6n) {
+  margin-right: 0;
+}
 
 
