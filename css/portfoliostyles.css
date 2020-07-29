@@ -47,7 +47,9 @@ html {
   margin-bottom: 30px;
   
 }
-
+.container-list:nth-child(3n + 0) {
+  margin-right: 0;
+}
 
 :root {
    --main-txt-color: #212121;
