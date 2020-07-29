@@ -289,7 +289,7 @@ color: var(--features-bg-color);
 
 }
 .features{
-  width: calc((1200-30px)/3);
+  width: calc((1200 - 30px)/3);
  margin-bottom: 94px;
 }
 
