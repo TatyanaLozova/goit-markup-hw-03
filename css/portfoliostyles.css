@@ -76,8 +76,6 @@ outline: 2px solid #2196f3;
 /*<!--Флекс оформление-->*/
 .container {
   width: 1200px;
-   padding-left: 15px;
-   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid #f06e22;
@@ -103,6 +101,8 @@ outline: 2px solid #2196f3;
 .container-list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 .container-li {
   display: block;
