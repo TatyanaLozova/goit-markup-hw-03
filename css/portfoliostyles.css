@@ -6,6 +6,14 @@ html {
 *::after{
   box-sizing: inherit;
 }
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*навигация*/
  .container-heder {
   width: 1200px;
@@ -14,24 +22,70 @@ html {
   outline: 2px solid #2196f3;
   
 }
-
-.flexbox {
+.nav {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-items{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.flex-nav {
+    display: flex;
+}
+.flex-nav li + li {
+ margin-left: 50px;
+}
+.flex-nav li {
+outline: 2px solid #2196f3;
+}
+.menu-link {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  .menu-items {
+    display: flex;
+      }
+  .menu-items li + li {
+ margin-left: 30px;
+  }
+  .menu-button li + li {
+    margin-left: 8px;
+    list-style: none;
+  
+  }
+  
+ /*.menu-main{
+   display: flex;
+   list-style: none;
+ }
+  .menu-main li + li {
+ margin-left: 30px;
+}
+
+
 /*<!--Флекс оформление-->*/
 .container {
   width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
+   padding-left: 15px;
+   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid #f06e22;
 }
    
 .section {
-  padding: 94px 0;
- /* background-color: rgb(195, 226, 187); */
+  /*padding: 94px 0;
+  background-color: rgb(195, 226, 187); */
 }
 
 .container-filter {
@@ -40,19 +94,18 @@ html {
   margin-bottom: 50px;
 
 }
-.button {
-  margin-right: 8px;
-  min-width: 73px;
-  height: 38px;
-  padding: 6px 22px;
+.button:not(:last-child) {
+  margin-right: 8px
   border-radius: 4px;
 }
+/*блоки*/
 
 .container-list {
   display: flex;
   flex-wrap: wrap;
 }
-.container-list li {
+.container-li {
+  display: block;
  margin-right: 30px;
   width: calc((100% - 60px) / 3); 
  /* width: 370px;
@@ -60,9 +113,11 @@ html {
   /*margin-bottom: 30px;*/
    
 }
-.container-list:nth-child(3n + 0) {
+.container-li:nth-child(3n+0) {
   margin-right: 0;
 }
+
+
 
 :root {
    --main-txt-color: #212121;
@@ -169,7 +224,8 @@ font-size: 18px;
 line-height: 1.56;
 letter-spacing: 0.03em;
 text-decoration: none;
-color: var(--sec-txt-color);
+color: var(--part-txt-color);
+background: var(--accent-bg-color)
 
 }
 .footer{

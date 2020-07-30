@@ -13,40 +13,35 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header class="container-heder flexbox">
-      <nav>
-        <p>
-          <a href="/index.html" class="logo"
-            ><span class="logo-part">Web </span>Studio</a
-          >
-        </p>
-        <ul class="menu-list">
-          <li><a href="index.html" class="menu-link">Студия</a></li>
-          <li><a href="portfolio.html" class="menu-link">Портфолио</a></li>
-          <li><a href="#" class="menu-link">Контакты</a></li>
+    <header class="container-heder">
+      <div class="main-nav">
+        <nav class="nav">
+          <p>
+            <a href="/index.html" class="logo"><span class="logo-part">Web </span>Studio</a>
+          </p>
+          <ul class="menu-items flex-nav">
+            <li><a href="index.html" class="menu-link">Студия</a></li>
+            <li><a href="portfolio.html" class="menu-link">Портфолио</a></li>
+            <li><a href="#" class="menu-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="menu-items">
+          <li>
+            <a class="menu-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="menu-item" href="tell:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="menu-list">
-        <li>
-          <a
-            class="menu-item"
-            href="mailto:info@devstudio.com"
-                        >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="menu-item" href="tell:+380961111111" 
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
+      
     </header>
     <!--Портфолио-->
     <main>
       <section class="section">
+        <h1 class="caption">Портфолио</h1>
         <div class="container">
-          <h1 class="caption">Портфолио</h1>      
-              <ul class="menu-list container-filter">
+             <ul class="menu-button container-filter">
                 <li><button class="btn" type="button">Все</button></li>
                 <li><button class="btn" type="button">Веб-сайты</button></li>
                 <li><button class="btn" type="button">Приложения</button></li>
@@ -54,8 +49,8 @@
                 <li><button class="btn" type="button">Маркетинг</button></li>
                 </ul>
   
-          <ul class="menu-list container-list">
-            <li>
+          <ul class="container-list">
+            <li class="container-li">
               <a href="#"><img src="./images/img1.jpg" alt="фото1 специалистов" width="370" /></a>
               <h2 class="title">Технокряк</h2>
               <p class="subtitle">Веб-сайт</p>
@@ -65,7 +60,7 @@
                 защищённые сервера конкурентов.
               </p>
             </li>
-            <li>
+            <li class="container-li">
               <a href="#"><img src="./images/img2.jpg" alt="фото2 баскетболисты" width="370" /></a>
               <h2 class="title">Постер New Orlean vs Golden Star</h2>
               <p class="subtitle">Дизайн</p>
@@ -75,7 +70,7 @@
                 защищённые сервера конкурентов.
               </p>
             </li>
-            <li>
+            <li class="container-li">
               <a href="#"><img src="./images/img3.jpg" alt="фото3 seafood" width="370" /></a>
               <h2 class="title">Ресторан Seafood</h2>
               <p class="subtitle">Приложение</p>
@@ -85,7 +80,7 @@
                 защищённые сервера конкурентов.
               </p></a>
             </li>
-            <li>
+            <li class="container-li">
               <img src="./images/img4.jpg" alt="фото4 наушники" width="370" />
               <h2 class="title">Проект Prime</h2>
               <p class="subtitle">Маркетинг</p>
@@ -95,7 +90,7 @@
                 защищённые сервера конкурентов.
               </p>
             </li>
-            <li>
+            <li class="container-li">
               <img src="./images/img5.jpg" alt="фото5 две коробки" width="370" />
               <h2 class="title">Проект Boxes</h2>
               <p class="subtitle">Приложение</p>
@@ -105,7 +100,7 @@
                 защищённые сервера конкурентов.
               </p>
             </li>
-            <li>
+            <li class="container-li">
               <img src="./images/img6.jpg" alt="фото6 открыт сайт на мониторе" width="370" />
               <h2 class="title">Inspiration has no Borders</h2>
               <p class="subtitle">Веб-сайт</p>
@@ -115,7 +110,7 @@
                 защищённые сервера конкурентов.
               </p>
             </li>
-            <li>
+            <li class="container-li">
               <img src="./images/img7.jpg" alt="журнал Limited Edition" width="370" />
               <h2 class="title">Издание Limited Edition</h2>
               <p class="subtitle">Дизаин</p>
@@ -126,7 +121,7 @@
               </p>
             </li>
         
-            <li>
+            <li class="container-li">
               <img src="./images/img8.jpg" alt="реклама" width="370" />
               <h2 class="title">Проект LAB</h2>
               <p class="subtitle">Маркетинг</p>
@@ -136,7 +131,7 @@
                 защищённые сервера конкурентов.
               </p>
             </li>
-            <li>
+            <li class="container-li">
               <img src="./images/img9.jpg" alt="открыт ноутбук" width="370" />
               <h2 class="title">Проект LAB</h2>
               <p class="subtitle">Маркетинг</p>
