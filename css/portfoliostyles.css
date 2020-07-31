@@ -116,7 +116,51 @@ outline: 2px solid #2196f3;
 .container-li:nth-child(3n+0) {
   margin-right: 0;
 }
+/*футер*/
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;}
 
+.footer > .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block > a.logo {
+    display: inline-block;
+    margin-top: 60px;
+  }
+
+.address {
+  margin-top: 20px;
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.address .contacts {
+  color: var(--part-txt-color);
+  list-style: none;
+  margin-top: 9px;
+  padding: 0;
+}
+
+
+.footer-block >.heder-social{
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 72px;
+  margin-bottom: 20px;
+}
+
+.footer-social  {
+  display: flex;
+   list-style: none;
+
+}
+.link-items:not(:last-child) {
+    margin-right: 10px;
+  }
 
 
 :root {
@@ -258,11 +302,21 @@ color:var(--part-txt-color);
 
 .contacts-item {
   text-decoration: none;
+    list-style: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 
-
+.heder-social{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--part-txt-color);
+}
 
 .aside {
 font-weight: bold;
