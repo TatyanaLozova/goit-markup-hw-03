@@ -144,7 +144,10 @@ outline: 2px solid #2196f3;
   margin-top: 9px;
   padding: 0;
 }
-
+.block-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .footer-block >.heder-social{
   display: flex;
