@@ -343,17 +343,19 @@ width: calc((100% - 60px) / 3);
   display: flex;
   padding: 0;
   margin: 0;
+  
   }
 
 .our-team li{
   margin-right: 30px;
+  background: var(--main-bg-color);
 }
 .our-team{
  display: flex;
  /*flex-wrap: wrap;*/
   padding: 0;
   margin: 0;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   }
 .our-team li {
    margin-right: 30pt;
