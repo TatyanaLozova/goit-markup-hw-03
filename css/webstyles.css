@@ -349,6 +349,7 @@ width: calc((100% - 60px) / 3);
 .our-team li{
   margin-right: 30px;
   background: var(--main-bg-color);
+  padding-bottom: 36px;
 }
 .our-team{
  display: flex;
