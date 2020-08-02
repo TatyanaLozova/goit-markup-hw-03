@@ -366,6 +366,11 @@ width: calc((100% - 60px) / 3);
   margin-right: 0;
 }
 
+.social-flex{
+  display: flex;
+  list-style: none;
+}
+
   <!--Постоянные клиенты-->
 .regular-client {
    display: flex;
