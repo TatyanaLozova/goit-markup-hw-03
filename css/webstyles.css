@@ -209,6 +209,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+text-decoration: none;
 
  }
 
@@ -227,6 +228,7 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--sec-txt-color);
+text-decoration: none;
 }
 
 .footer{
