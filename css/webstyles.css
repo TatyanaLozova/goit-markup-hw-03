@@ -347,7 +347,7 @@ width: calc((100% - 60px) / 3);
   }
 
 .our-team li{
-  margin-right: 30px;
+  margin-right: 10px;
   background: var(--main-bg-color);
   padding-bottom: 36px;
 }
@@ -372,6 +372,9 @@ width: calc((100% - 60px) / 3);
 .social-flex{
   display: flex;
   list-style: none;
+  padding-left: 0;
+  justify-items: center;
+  align-items: center;
 }
 
   <!--Постоянные клиенты-->
